@@ -42,7 +42,7 @@ local TransparencyFrames	= {};
 
 --Objects
 local Camera				= workspace.CurrentCamera;
-local PlayerGui				= game.Players.LocalPlayer:WaitForChild("PlayerGui");
+local PlayerGui				= game:GetService('CoreGui');
 
 --Services
 local TweenService			= game:GetService("TweenService")
